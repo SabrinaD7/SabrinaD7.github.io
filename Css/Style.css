@@ -143,8 +143,7 @@ input[type="text"] {
 
 
 
-
-
+/* Footerin järjestäminen */
 #footter {
 
     bottom: 0;
@@ -190,6 +189,12 @@ input[type="text"] {
         margin-bottom: 40%;
         margin-top: 8%;
 }
+
+    #footter {
+        padding: 10px;
+        font-size: 12px;
+}
+
 }
 
 
