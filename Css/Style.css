@@ -170,6 +170,23 @@ input[type="text"] {
     
 }
 
+@media screen and (max-widht: 576px) {
+
+    .notebook {
+
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        line-height: 1.5;
+        width: 45%;
+        vertical-align: middle;
+        font-family: 'Source Code Pro', monospace;
+        margin-top: 10%;
+    }
+
+    h1 {
+        font-size: 10% !important;
+    }
+}
+
 
 /*
 Tällä saa taustakuvaan liukuvärin:
