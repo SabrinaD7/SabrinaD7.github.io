@@ -1,0 +1,177 @@
+
+body {
+
+ background: linear-gradient(115deg, rgba(186, 242, 255, 0.8), rgba(247, 177, 253, 0.5));
+}
+
+
+
+#container {
+    text-align: center;
+}
+
+
+#printArea {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    padding: 3%;
+
+}
+
+/* #koynnos {
+    position: relative;
+    justify-content: left;
+    display: flex;
+    width: 20%;
+} */
+  
+
+/* Tekstien fontit sunmuut järjestäminen  */
+h7 {
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+h5 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100px !important;
+    color: #7f7f7f  !important;
+    margin-top: 10% !important;
+}
+
+
+label {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+
+
+#diary {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase; 
+    margin-bottom: 30%;
+    
+}
+      
+#print {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 16px;
+        color: #333;
+        font-weight: bold;
+        text-transform: uppercase; 
+        margin-bottom: 5%;
+}
+  
+.important {
+    color: red;
+    border: #333;
+}
+
+
+/* Laatikoiden ja nappien ulkoasu */
+input[type="text"] {
+   
+    border:#f5f5f5;
+    background-color: #f9f9f9;
+    width: 200px;
+    height: 30px;
+    box-shadow: 10px 10px 20px #888;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+#message {
+    
+    border:#f5f5f5;
+    background-color: #f9f9f9;
+    box-shadow: 10px 10px 20px #888;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    width: 80%;
+    height: 200px;
+    resize: both;
+  
+}
+
+
+
+
+.notebook{
+    margin-top: 10%;
+    text-align: center;
+    display: inline-block;
+    /* border: 1px solid black; */
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    line-height: 1.5;
+    width: 45%;
+    vertical-align: middle;
+    font-family: 'Source Code Pro', monospace;
+    margin-right: 20px;
+}
+
+#text-area {
+    color:#7f7f7f;
+    text-align: center;
+}
+
+
+#row {
+    text-align: center;
+}
+
+
+
+
+
+
+#footter {
+
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+    background-color: #b8ffff;
+    height: max-content; 
+
+} 
+
+
+.img{
+    position: relative;
+    justify-content: right;
+    display: flex;
+}
+
+.txt{
+    position: fixed;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+
+/*
+Tällä saa taustakuvaan liukuvärin:
+background: linear-gradient(115deg, rgba(101,151,209,0.8), rgba(202,102,211,0.5)), url(Tähän kuvan osoite);
+*/
